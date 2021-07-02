@@ -35,11 +35,9 @@ The RStudio setup will come later.
 
 This is where the template's `index.js` file comes in.
 
-You will need to edit a few variables:
-* `typeDefs`: a dummy schema is outlined, which should give you a good idea of how to substitute in the schema of your own database.
-* `driver`: substitute in the bolt URL and port, username, and password associated with your Neo4j database.
+You will need to substitute in the bolt URL and port, username, and password associated with your Neo4j database. You *do not* need to enter your database schema, as that is inferred with the `neo4j-graphql-js` package.
 
-Once you have substituted in the appropriate information, spin up your Neo4j databases and run this file using `node index.js`. Now, if you visit `http://localhost:4000` in your web browser, you'll see the *GraphQL Playground*. You can run some test GraphQL queries to see how it responds. 
+Now, spin up your Neo4j databases and run this file using `node index.js`. Now, if you visit `http://localhost:4000` in your web browser, you'll see the *GraphQL Playground*. You can run some test GraphQL queries to see how it responds. 
 
 ## 4. Connecting to the Shiny Application.
 
