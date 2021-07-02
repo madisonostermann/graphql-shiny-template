@@ -1,0 +1,10 @@
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main-header .logo {
+  font-weight: bold;
+}
