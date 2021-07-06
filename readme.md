@@ -24,7 +24,7 @@ Once you have Node.js installed, navigate to your project folder and initialize 
 npm init --y
 
 # only if you're using Neo4j, again!
-npm install @neo4j/graphql graphql apollo-server neo4j-driver
+npm install @neo4j/graphql graphql apollo-server neo4j-driver neo4j-graphql-js
 ```
 
 You'll also need to make sure you have a database in Neo4j created :) 
